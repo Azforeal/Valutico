@@ -1,0 +1,106 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse ;
+    border-color: cyan;
+    text-align: justify;
+    padding: 10px;
+    border-spacing: 30px;
+    
+}
+th:nth-child(even) {
+    
+    width: 30%;
+    height: 20px;
+    font-family: 'Solway';
+    
+}
+td{
+    width: 80%;
+    height: 50px;
+    column-span: 4;
+    font-style: normal;
+    font-size: 16px;
+    font-family:'Poppins';
+    font-weight:400;
+    list-style: Justify;
+    font-stretch: semi-condensed;
+    text-align: justify;
+    
+}
+
+img{
+    position:relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+tr:nth-child(odd){
+    background-color: brown;
+}
+
+body{
+    padding: 20px;
+
+    
+}
+
+button{
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'solway';
+    background-color: coral;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position:relative;
+    /*margin-left: 200px;
+    margin-right: 200px;*/
+    padding-left: 16px;
+    padding-right: 16px;
+    
+}
+
+.button1{
+    background-color: rgb(250, 250, 250);
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'solway';
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position:relative;
+   /*margin-left: 200px;
+    margin-right: 200px;*/
+    padding-left: 16px;
+    padding-right: 16px;
+    
+
+}
+
+.mybook{
+    border: 1px solid, black;
+    margin: 90px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: block;
+}
+
+h1{
+    text-align: center;
+    font-size: 56px;
+    font-family: 'solway';
+   
+}
+
+div{
+    margin-left: 400px;
+    margin-right:300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}

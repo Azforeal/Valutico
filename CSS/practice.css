@@ -1,0 +1,44 @@
+
+.container {
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url(image/image_chair.jpg);
+    background-position :center;
+    background-size: contain;
+    font-size: larger;
+  }
+
+  H3{
+    font-family: "jost";
+    font-size: 20px;
+    font-weight: 500px;
+    color: rgb(255, 255, 255);
+  }
+  H1{
+    font-family: "jost";
+    font-size: 70px;
+    font-weight: 500px;
+    color: rgb(255, 255, 255);
+  }
+
+
+H5{
+  font-family: "jost";
+  font-size: 20px;
+  font-weight: 500px;
+  color: rgb(255, 255, 255);
+  
+}
+
+button{
+    color: rgb(255, 255, 255);
+    background-color:orangered;
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    font: "jost";
+    font-style: bold;
+}

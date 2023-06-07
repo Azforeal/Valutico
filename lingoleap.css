@@ -1,0 +1,393 @@
+body{
+    box-sizing: border-box;
+    position: relative;
+    width: 1280px;
+    height: 1019px;
+    background: #f9f9f9;
+    border: 1px solid #713586;
+}
+
+.head{
+    width: 180px;
+    height: 43.46px;
+    top: 28px;
+    left: 70px;
+    position: absolute;
+    right: 80.47%;
+    bottom: 92.99%;
+
+}
+
+.top{
+    position: absolute;
+    left: 87.03%;
+    right: 7.79%;
+    top: 3.93%;
+    bottom: 93.42%;
+    font-family:'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #121212;
+}
+
+hr{
+    position: absolute;
+    left: 5.47%;
+    right: 8.95%;
+    top: 6.93%;
+    bottom: 91.07%;
+
+    /*border: 1px solid rgba(0, 0, 0, 0.4);*/
+}
+
+.welcome{
+    position: absolute;
+    left: 5.47%;
+    right: 73.2%;
+    top: 14.82%;
+    bottom: 80.47%;
+
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 48px;
+    /* identical to box height, or 200% */
+
+    display: flex;
+    align-items: center;
+
+    /* Black/Neutral color */
+
+    color: #121212;
+
+    /* Gray color/2 */
+
+    /*border: 1px solid #B0B0B0;*/
+}
+
+.image{
+    position: absolute;
+    left: 5.55%;
+    right: 45.55%;
+    top: 23.45%;
+    bottom: 15.11%;
+
+    background: url(image.png);
+
+}
+
+.frame{
+    position: absolute;
+    left: 18.88%;
+    right: 5.1%;
+    top: 17.17%;
+    bottom: 5.28%;
+}
+
+.sub{
+    position: absolute;
+    left: 65.65%;
+    right: 15.86%;
+    top: 17.17%;
+    bottom: 90.18%;
+    align-items: center;
+    padding-bottom: 40px;
+    
+
+    /* Desktop/Body 1/SemiBold/Center */
+
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height, or 150% */
+    padding-left: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+
+    /* Black/Neutral color */
+
+    color: #121212;
+
+}
+
+.para{
+    position: absolute;
+    left: 56.88%;
+    right: 6.56%;
+    top: 30.26%;
+    bottom: 72.03%;
+
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* or 100% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Black/Neutral color */
+
+    color: #121212;
+}
+
+.goo1{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17.8988px 42.957px;
+    gap: 16px;
+
+    position: absolute;
+    left: 62.42%;
+    right: 8.67%;
+    top: 40.37%;
+    bottom: 80.95%;
+
+    /* Gray color/2 */
+
+    border: 0.894938px solid #B0B0B0;
+    border-radius: 7.1595px;
+    
+
+}
+
+.goo2{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17.8988px 42.957px;
+    gap: 16px;
+
+    position: absolute;
+    left: 62.42%;
+    right: 8.67%;
+    top: 47.94%;
+    bottom: 56.37%;
+
+    /* Gray color/2 */
+
+    border: 0.894938px solid #B0B0B0;
+    border-radius: 7.1595px;
+
+}
+
+.cont{
+    position: absolute;
+    left: 20.73%;
+    right: 8.67%;
+    top: 60.87%;
+    bottom: 49.66%;
+}
+.line{
+    
+    position: absolute;
+    left: 76.34%;
+    right: 22.51%;
+    top: 48.87%;
+    bottom: 49.66%;
+    
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.3937px;
+    line-height: 14px;
+    /* identical to box height, or 114% */
+    
+    display: flex;
+    align-items: center;
+    
+    /* Black/Neutral color */
+    
+    color: #121212;
+    
+
+}
+
+.line1 {
+    position: absolute;
+    left: 35.73%;
+    right: 24.9%;
+    top: 49.74%;
+    bottom: 50.26%;
+
+    /* Black/Neutral color */
+
+    background: #121212;
+    /* Gray color/2 */
+
+    border: 0.885263px solid #B0B0B0;
+    width: 150px;
+}
+
+.line2 {
+    position: absolute;
+    left: 78.5%;
+    right: 8.67%;
+    top: 49.74%;
+    bottom: 50.26%;
+
+    /* Black/Neutral color */
+
+    background: #121212;
+    /* Gray color/2 */
+
+    border: 0.885263px solid #B0B0B0;
+}
+/*
+form{
+    position:absolute;
+    left: 62.42%;
+    right: 5.1%;
+    top: 55.75%;
+    bottom: 22.17%;
+
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+
+    position: absolute;
+    width: 368px;
+    height: 42px;
+    left: calc(50% - 368px/2 - 23.84px);
+    top: 0px;
+
+    /* Accent Color/2 */
+/*
+    border: 1px solid #5874A7;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 8px;
+
+}
+
+.input1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 8px;
+    gap: 10px;
+
+    position: absolute;
+    width: 368px;
+    height: 42px;
+    left: 0px;
+    top: 65px;
+
+    /* Gray color/3 */
+/*
+    border: 1px solid #D0D0D0;
+    border-radius: 8px;
+}
+/*
+.input2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 8px;
+    gap: 10px;
+
+    position: absolute;
+    width: 368px;
+    height: 42px;
+    left: 0px;
+    top: 130px;
+
+    /* Gray color/3 */
+/*
+    border: 1px solid #D0D0D0;
+    border-radius: 8px;
+}
+
+.p2{
+    position: absolute;
+    width: 268px;
+    height: 16px;
+    left: 0px;
+    top: 194.92px;
+
+    /* Desktop/Subtitle/Descript/Center */
+/*
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+/*
+    display: flex;
+    align-items: center;
+
+    /* Black/Neutral color */
+/*
+    color: #121212;
+}
+
+.signup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7.01723px 28.0689px;
+
+    position: absolute;
+    left: 62.42%;
+    right: 8.67%;
+    top: 87.05%;
+    bottom: 9.13%;
+
+    background: #713586;
+    border-radius: 7.01723px;
+}
+
+.p1{
+    position: absolute;
+    left: 71.32%;
+    right: 13.93%;
+    top: 93.15%;
+    bottom: 5.28%;
+
+    /* Desktop/Button/Small/Regular/Center */
+/*
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+/*
+    display: flex;
+    align-items: center;
+
+    /* Black/Neutral color */
+/*
+    color: #121212;
+
+}
